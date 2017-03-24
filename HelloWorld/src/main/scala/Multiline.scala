@@ -11,6 +11,13 @@ object Multiline {
         |con enter
         |.
       """.stripMargin)
+
+    """ esto
+      |es una
+      |prueba
+      |con enter
+      |.
+    """.stripMargin
   }
 
   def funcionMultiLineMargin()={
